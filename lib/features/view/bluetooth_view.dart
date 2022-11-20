@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ble_lib/flutter_ble_lib.dart';
 
 import '../widgets/drawer.dart';
 
@@ -11,6 +12,17 @@ class BluetoothView extends StatefulWidget {
 }
 
 class _BluetoothViewState extends State<BluetoothView> {
+  bool isClicked = false;
+  BleManager bleManager = BleManager();
+
+  @override
+  initState() {
+    super.initState();
+    
+  }
+
+  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,6 +31,16 @@ class _BluetoothViewState extends State<BluetoothView> {
         centerTitle: true,
       ),
       drawer: buildDrawer(context, BluetoothView.route),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          IconButton(
+            icon: const Icon(Icons.bluetooth),
+            onPressed: () {},
+          ),
+        ],
+      ),
     );
   }
 }

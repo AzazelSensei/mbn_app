@@ -21,6 +21,10 @@ dependencies:
   latlong2: ^0.8.1
   positioned_tap_detector_2: ^1.0.4
 
+  # Bluetooth
+  flutter_blue: ^0.8.0
+  flutter_ble_lib: ^2.3.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
