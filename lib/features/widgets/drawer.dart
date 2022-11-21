@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mbn_app/features/view/bluetooth_view.dart';
+import 'package:mbn_app/features/view/nfc_manager_view.dart';
 
 import '../view/location_history_view.dart';
 
@@ -39,6 +40,12 @@ Drawer buildDrawer(BuildContext context, String currentRoute) {
           context,
           const Text('Bluetooth'),
           BluetoothView.route,
+          currentRoute,
+        ),
+        _buildMenuItem(
+          context,
+          const Text('NFC Reader'),
+          NfcManagerView.route,
           currentRoute,
         ),
       ],

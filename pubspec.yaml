@@ -22,8 +22,11 @@ dependencies:
   positioned_tap_detector_2: ^1.0.4
 
   # Bluetooth
-  flutter_blue: ^0.8.0
-  flutter_ble_lib: ^2.3.2
+  flutter_bluetooth_serial: ^0.4.0
+  scoped_model: ^2.0.0-nullsafety.0
+
+  # NFC Reader
+  nfc_manager: ^3.2.0
 
 dev_dependencies:
   flutter_test:

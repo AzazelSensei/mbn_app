@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:mbn_app/features/view/bluetooth_view.dart';
+import 'package:mbn_app/features/view/nfc_manager_view.dart';
 import 'features/view/location_history_view.dart';
 
 void main() {
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         LocationHistoryView.route: (context) => const LocationHistoryView(),
         BluetoothView.route: (context) => const BluetoothView(),
+        NfcManagerView.route: (context) => const NfcManagerView(),
       },
       debugShowCheckedModeBanner: false,
       title: 'Study Case',
