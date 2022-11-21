@@ -1,16 +1,11 @@
-# mbn_app
+# MBN APP (Study Case)
 
 A new Flutter project.
 
-## Getting Started
+## App Release Link
 
-This project is a starting point for a Flutter application.
+https://github.com/AzazelSensei/mbn_app/blob/master/app-release.apk
 
-A few resources to get you started if this is your first Flutter project:
+## Presentation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://user-images.githubusercontent.com/89297042/203046699-8c03ecda-17ea-45e9-9b38-df28b7141965.png" width="250"><img src="https://user-images.githubusercontent.com/89297042/203047371-c1e80fe8-8557-467f-97de-f0ef31e7ce42.png" width="250"><img src="https://user-images.githubusercontent.com/89297042/203047398-ffc87aba-e40c-4229-b1a8-ee2cf2ab783d.png" width="250">
